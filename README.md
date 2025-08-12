@@ -62,7 +62,7 @@ These histograms show how Recency, Frequency, and Monetary values are distribute
 - **Monetary:** Displays spending patterns, distinguishing high spenders from low spenders.
 
 :  
-![ Histograms](Customer-Segmentation/dist.png)
+![ Histograms](Customer_Segmentation/dist.png)
 
 ---
 
