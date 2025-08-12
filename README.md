@@ -61,8 +61,8 @@ These histograms show how Recency, Frequency, and Monetary values are distribute
 - **Frequency:** Reveals how often customers make purchases, highlighting loyal vs occasional buyers.  
 - **Monetary:** Displays spending patterns, distinguishing high spenders from low spenders.
 
-Example (Recency Distribution):  
-![Recency Histogram](path/to/recency_histogram.png) *(Replace with actual screenshot)*
+:  
+![ Histograms](Customer-Segmentation/rdist.png) *(Replace with actual screenshot)*
 
 ---
 
