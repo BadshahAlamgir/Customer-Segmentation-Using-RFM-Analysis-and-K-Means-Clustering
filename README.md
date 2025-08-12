@@ -1,0 +1,2 @@
+# Customer-Segmentation-Using-RFM-Analysis-and-K-Means-Clustering
+A comprehensive Python project that segments customers based on purchase behavior using Recency, Frequency, and Monetary metrics. Includes data cleaning, feature engineering, clustering, and rich visualizations (histograms, radar charts, interactive 3D plots) to uncover valuable customer insights for targeted marketing and business growth.
