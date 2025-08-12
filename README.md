@@ -70,12 +70,12 @@ This plot displays the Within-Cluster Sum of Squares (WCSS) against various numb
 ![Elbow Method for Optimal Number of Clusters](Customer_Segmentation/elboline.png)
 
 ---
-### 2. Customer Segments: Recency vs Frequency Scatter Plot  
+### 3. Customer Segments: Recency vs Frequency Scatter Plot  
 This 2D scatter plot visualizes customers based on their Recency and Frequency values, colored by their assigned cluster. It helps to quickly identify clusters with frequent recent buyers, infrequent long-ago buyers, and other groupings, providing intuitive insight into segment behaviors.
 
 ![Recency vs Frequency](Customer_Segmentation/scatter.png)
 
-### 3. Radar Charts of Cluster Profiles  
+### 4. Radar Charts of Cluster Profiles  
 For each customer segment, a radar chart plots the normalized average Recency, Frequency, and Monetary values on a circular graph. This visually contrasts customer groups, showing which segments have higher loyalty, spending, or inactivity.
 
 
@@ -83,10 +83,9 @@ For each customer segment, a radar chart plots the normalized average Recency, F
 
 ---
 
-### 4. Interactive 3D Scatter Plot of Customer Segments  
+### 5. Interactive 3D Scatter Plot of Customer Segments  
 An interactive Plotly 3D scatter plot visualizes customers in three dimensions—Recency, Frequency, and Monetary—with color-coded clusters. Users can rotate and zoom to explore clusters’ separations and overlaps, gaining deeper insight into segment characteristics.
 
-Interactive plot example (view live or open saved HTML):  
 ![3D Scatter Plot](Customer_Segmentation/Screenshot_11.png)
 
 ---
