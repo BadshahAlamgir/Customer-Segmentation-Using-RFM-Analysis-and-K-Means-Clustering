@@ -69,9 +69,8 @@ These histograms show how Recency, Frequency, and Monetary values are distribute
 ### 2. Radar Charts of Cluster Profiles  
 For each customer segment, a radar chart plots the normalized average Recency, Frequency, and Monetary values on a circular graph. This visually contrasts customer groups, showing which segments have higher loyalty, spending, or inactivity.
 
-Example Radar Chart for Cluster 0:  
 
-![ Radar Chart Cluster 0](Customer_Segmentation/download(1)png)
+![ Radar Chart](Customer_Segmentation/download(1).png)
 
 ---
 
