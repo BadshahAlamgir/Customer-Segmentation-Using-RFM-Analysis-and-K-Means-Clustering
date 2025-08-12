@@ -70,7 +70,7 @@ These histograms show how Recency, Frequency, and Monetary values are distribute
 For each customer segment, a radar chart plots the normalized average Recency, Frequency, and Monetary values on a circular graph. This visually contrasts customer groups, showing which segments have higher loyalty, spending, or inactivity.
 
 
-![ Radar Chart](Customer_Segmentation/download(1).png)
+![ Radar Chart](Customer_Segmentation/down.png)
 
 ---
 
