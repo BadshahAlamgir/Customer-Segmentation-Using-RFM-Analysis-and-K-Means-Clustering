@@ -70,7 +70,8 @@ These histograms show how Recency, Frequency, and Monetary values are distribute
 For each customer segment, a radar chart plots the normalized average Recency, Frequency, and Monetary values on a circular graph. This visually contrasts customer groups, showing which segments have higher loyalty, spending, or inactivity.
 
 Example Radar Chart for Cluster 0:  
-![Radar Chart Cluster 0](Customer_Segmentation/download (1).png)
+
+![ Radar Chart Cluster 0](Customer_Segmentation/download(1)png)
 
 ---
 
@@ -78,7 +79,7 @@ Example Radar Chart for Cluster 0:
 An interactive Plotly 3D scatter plot visualizes customers in three dimensions—Recency, Frequency, and Monetary—with color-coded clusters. Users can rotate and zoom to explore clusters’ separations and overlaps, gaining deeper insight into segment characteristics.
 
 Interactive plot example (view live or open saved HTML):  
-![3D Scatter Plot](Customer_Segmentation/customer_segmentation_3d.html)
+![3D Scatter Plot](Customer_Segmentation/Screenshot_11.png)
 
 *To view the interactive plot, open `customer_segmentation_3d.html` in a web browser.*
 
