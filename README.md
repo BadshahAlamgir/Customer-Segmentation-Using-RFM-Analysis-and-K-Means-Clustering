@@ -89,6 +89,41 @@ An interactive Plotly 3D scatter plot visualizes customers in three dimensions�
 Interactive plot example (view live or open saved HTML):  
 ![3D Scatter Plot](Customer_Segmentation/Screenshot_11.png)
 
+---
+
+## Cluster Summary Table
+
+The following table summarizes the average Recency, Frequency, and Monetary values for each cluster, along with the number of customers in each segment:
+
+| Cluster | Recency (Mean) | Frequency (Mean) | Monetary (Mean) | Customer Count |
+|---------|----------------|------------------|-----------------|----------------|
+| 0       | 53.7           | 2.0              | 612.4           | 2028           |
+| 1       | 254.0          | 1.4              | 399.4           | 982            |
+| 2       | 29.2           | 9.8              | 5475.7          | 1329           |
+
+- **Cluster 0:** Customers with moderate recency and frequency, and moderate spending.  
+- **Cluster 1:** Customers with high recency (less recent), low frequency, and lower spending — possibly at-risk or inactive customers.  
+- **Cluster 2:** Customers with very recent purchases, very high frequency, and highest spending — highly valuable and loyal customers.
+
+This table helps quickly understand the characteristics of each segment and supports strategic decision-making.
+
+
+---
+
+## Business Insights
+
+The customer segmentation analysis reveals distinct groups with unique purchasing behaviors, offering actionable insights for targeted marketing and retention strategies:
+
+- **Loyal and High-Value Customers (Cluster 2):**  
+  This segment has very recent purchases, high frequency, and the highest average spending. These customers are highly engaged and valuable, making them ideal candidates for loyalty programs, personalized offers, and exclusive promotions to strengthen retention.
+
+- **Moderate Engagement Customers (Cluster 0):**  
+  Customers in this group exhibit moderate recency and frequency, with average spending levels. They represent a stable customer base with growth potential. Targeted upselling and cross-selling initiatives can encourage increased purchase frequency and higher spending.
+
+- **At-Risk or Inactive Customers (Cluster 1):**  
+  This segment shows high recency (long time since last purchase), low frequency, and lower average spending, indicating customers who may be drifting away. Proactive re-engagement campaigns, such as win-back offers or personalized outreach, can help revive these relationships before churn occurs.
+
+By focusing marketing efforts according to these insights, businesses can optimize budget allocation, personalize communication, and ultimately maximize customer lifetime value and business growth.
 
 
 ---
