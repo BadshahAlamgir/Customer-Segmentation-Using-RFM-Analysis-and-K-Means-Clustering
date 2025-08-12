@@ -65,8 +65,17 @@ These histograms show how Recency, Frequency, and Monetary values are distribute
 ![ Histograms](Customer_Segmentation/dist.png)
 
 ---
+### 2. Elbow Method Plot for Optimal Number of Clusters  
+This plot displays the Within-Cluster Sum of Squares (WCSS) against various numbers of clusters (k). The "elbow" point where the decrease in WCSS starts to slow indicates the optimal number of clusters to use, balancing model complexity and fit quality.
+![Elbow Method for Optimal Number of Clusters](Customer_Segmentation/elboline.png)
 
-### 2. Radar Charts of Cluster Profiles  
+---
+### 2. Customer Segments: Recency vs Frequency Scatter Plot  
+This 2D scatter plot visualizes customers based on their Recency and Frequency values, colored by their assigned cluster. It helps to quickly identify clusters with frequent recent buyers, infrequent long-ago buyers, and other groupings, providing intuitive insight into segment behaviors.
+
+![Recency vs Frequency](Customer_Segmentation/scatter.png)
+
+### 3. Radar Charts of Cluster Profiles  
 For each customer segment, a radar chart plots the normalized average Recency, Frequency, and Monetary values on a circular graph. This visually contrasts customer groups, showing which segments have higher loyalty, spending, or inactivity.
 
 
@@ -74,13 +83,13 @@ For each customer segment, a radar chart plots the normalized average Recency, F
 
 ---
 
-### 3. Interactive 3D Scatter Plot of Customer Segments  
+### 4. Interactive 3D Scatter Plot of Customer Segments  
 An interactive Plotly 3D scatter plot visualizes customers in three dimensions—Recency, Frequency, and Monetary—with color-coded clusters. Users can rotate and zoom to explore clusters’ separations and overlaps, gaining deeper insight into segment characteristics.
 
 Interactive plot example (view live or open saved HTML):  
 ![3D Scatter Plot](Customer_Segmentation/Screenshot_11.png)
 
-*To view the interactive plot, open `customer_segmentation_3d.html` in a web browser.*
+
 
 ---
 ## Tools & Libraries
@@ -91,11 +100,4 @@ Interactive plot example (view live or open saved HTML):
 - Scikit-learn for clustering and preprocessing  
 - Plotly for interactive 3D visualization
 
----
 
-## How to Run
-
-1. Clone the repository.  
-2. Install required packages:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn plotly
